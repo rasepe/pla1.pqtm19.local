@@ -218,6 +218,14 @@ Tornem a Eclipse. Abans de començar a exportar la branca "master" local al repo
 
 > ![](media/Captura025.PNG)
 
-* Si anem a Github, veurem com els fitxers i els directoris que contenen fitxers s'han sincronitzat:
+* Si anem a Github, veurem com els fitxers i els directoris d'Eclipse de la branca master que contenen fitxers s'han sincronitzat:
 
 > ![](media/Captura026.PNG)
+
+* També podem fer el mateix des del quadre inferior dret d'Eclipse, tots els fitxers de la branca master que s'hagin actualitzat des del darrer push ens sortiran al quadre *Unstaged Changes*:
+
+> ![](media/Captura027.PNG)
+
+* Des d'allà, si els volem pujar a Github, els passarem a *Staged Changes* i pitjarem *Commit and Push*:
+
+> ![](media/Captura028.PNG)
