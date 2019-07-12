@@ -4,7 +4,7 @@
 
 
 ## Índex
-[1. Instal·lació Xampp](#1-installació-de-xampp)
+1. [Instal·lació Xampp](#1-installació-de-xampp)
 2. Configuració Virtual Host d’Apache
 3. Instal·lació de Eclipse
 4. Definició de WorkSpace
