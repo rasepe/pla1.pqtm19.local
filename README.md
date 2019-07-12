@@ -42,12 +42,14 @@
 
 
 * Seleccionem idioma:
-![](media/Install_Xampp/11_Install_Xampp.PNG)
+
+> ![](media/Install_Xampp/11_Install_Xampp.PNG)
 
 
 * Arrenquem els servidors Apache i MySQL:
 ![](media/Install_Xampp/12_Install_Xampp.PNG)
 ![](media/Install_Xampp/13_Install_Xampp.PNG)
+
 
 * Si tot ha anat bé, si introduïm *localhost* al navegador hauríem de visualitzar aquesta pantalla:
 ![](media/Install_Xampp/14_Install_Xampp.PNG)
@@ -87,23 +89,48 @@ NameVirtualHost *:80
 	</Directory>
 </VirtualHost>
 ```
-> En la següent captura ressaltem les línies de codi que fan referència a la carpeta del projecte. Cada *Virtualhost* tindrà el seu propi bloc de codi que és idèntic tret de la referència a la carpeta. Per tant, aquesta és l'única part del codi que haurem d'adaptar cada cop que afegim un nou *Virtualhost*.
+> En la següent captura ressaltem les línies de codi que fan referència a la carpeta del projecte. Cada *VirtualHost* tindrà el seu propi bloc de codi que és idèntic tret de la referència a la carpeta. Per tant, aquesta és l'única part del codi que haurem d'adaptar cada cop que afegim un nou *VirtualHost*.
 ![](media/Captura002.PNG)
 
-* A continuació, editem el fixer **hosts** situat a la carpeta C:\Windows\System32\drivers\etc :
+* A continuació, editem **amb permisos d'administrador** el fixer **hosts** situat a la carpeta C:\Windows\System32\drivers\etc :
 ![](media/Captura003.PNG)
-![](media/Captura004.PNG)
+
+* Reiniciem el servidor Apache:
+
+> ![](media/Captura004.PNG)
 ![](media/Captura005.PNG)
+
+* Si introduïm al navegador el nom del *VirtualHost* que hem creat, ens hauria de sortir això:
 ![](media/Captura006.PNG)
+
+## 3. Instal·lació de Eclipse
+![](media/Install_Eclipse/1_Install_Eclipse.PNG)
+![](media/Install_Eclipse/2_Install_Eclipse.PNG)
+![](media/Install_Eclipse/3_Install_Eclipse.PNG)
+![](media/Install_Eclipse/4_Install_Eclipse.PNG)
+![](media/Install_Eclipse/5_Install_Eclipse.PNG)
+![](media/Install_Eclipse/6_Install_Eclipse.PNG)
+![](media/Install_Eclipse/7_Install_Eclipse.PNG)
+![](media/Install_Eclipse/8_Install_Eclipse.PNG)
+![](media/Install_Eclipse/9_Install_Eclipse.PNG)
+![](media/Install_Eclipse/10_Install_Eclipse.PNG)
+![](media/Install_Eclipse/11_Install_Eclipse.PNG)
+![](media/Install_Eclipse/12_Install_Eclipse.PNG)
+![](media/Install_Eclipse/13_Install_Eclipse.PNG)
+![](media/Install_Eclipse/14_Install_Eclipse.PNG)
+![](media/Install_Eclipse/15_Install_Eclipse.PNG)
+![](media/Install_Eclipse/16_Install_Eclipse.PNG)
+![](media/Install_Eclipse/17_Install_Eclipse.PNG)
+![](media/Install_Eclipse/18_Install_Eclipse.PNG)
+![](media/Install_Eclipse/19_Install_Eclipse.PNG)
+![](media/Install_Eclipse/20_Install_Eclipse.PNG)
+
+## 4. Definició de WorkSpace
+Descripció de WorkSpace i com es defineix
 ![](media/Captura007.PNG)
 ![](media/Captura008.PNG)
 ![](media/Captura009.PNG)
 ![](media/Captura010.PNG)
-
-
-## 3. Instal·lació de Eclipse
-## 4. Definició de WorkSpace
-Descripció de WorkSpace i com es defineix
 ## 5. Definició de projecte
 Descripció pas a pas amb captura de pantalles de com es defineix un projecte dintre d’eclipse.
 ## 6. Definició del repositori local
