@@ -5,14 +5,13 @@
 
 ## Índex
 1. [Instal·lació Xampp](#1-installació-de-xampp)
-2. Configuració Virtual Host d’Apache
-3. Instal·lació de Eclipse
-4. Definició de WorkSpace
-5. Definició de projecte
-6. Definició del repositori local
-7. Creació de Repositori de GitHub
-8. Exportació de la branca “master” local sobre repositori GitHub
-
+2. [Configuració Virtual Host d’Apache](#2-configuració-de-virtualhost-dapache)
+3. [Instal·lació de Eclipse](#3-installació-de-eclipse)
+4. [Definició de WorkSpace](#4-definició-de-workspace)
+5. [Definició de projecte](#5-definició-de-projecte)
+6. [Definició del repositori local](#6-definició-del-repositori-local)
+7. [Creació de Repositori de GitHub](#7-creació-de-repositori-de-github)
+8. [Exportació de la branca “master” local sobre repositori GitHub](#8-exportació-de-la-branca-master-local-sobre-repositori-github)
 
 
 ## 1. Instal·lació de XAMPP
