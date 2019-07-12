@@ -37,7 +37,7 @@
 > ![](media/Install_Xampp/5_Install_Xampp.PNG)
 
 
-* Seleccionem la carpeta on volem instal·lar XAMPP i anem fent "Next" fins que finalitzi la instal·lació:
+* Seleccionem el directori on volem instal·lar XAMPP i anem fent "Next" fins que finalitzi la instal·lació:
 
 > ![](media/Install_Xampp/6_Install_Xampp.PNG)
 > ![](media/Install_Xampp/7_Install_Xampp.PNG)
@@ -63,7 +63,7 @@
 
 ## 2. Configuració de VirtualHost d’Apache
 
-* Primer de tot creem la carpeta del projecte:
+* Primer de tot creem el directori del projecte:
 
 > ![](media/Captura001.PNG)
 
@@ -97,7 +97,7 @@ NameVirtualHost *:80
 	</Directory>
 </VirtualHost>
 ```
-> En la següent captura ressaltem les línies de codi que fan referència a la carpeta del projecte. Cada *VirtualHost* tindrà el seu propi bloc de codi que és idèntic tret de la referència a la carpeta. Per tant, aquesta és l'única part del codi que haurem d'adaptar cada cop que afegim un nou *VirtualHost*.
+> En la següent captura ressaltem les línies de codi que fan referència al directori del projecte. Cada *VirtualHost* tindrà el seu propi bloc de codi que és idèntic tret de la referència al directori. Per tant, aquesta és l'única part del codi que haurem d'adaptar cada cop que afegim un nou *VirtualHost*.
 
 > ![](media/Captura002.PNG)
 
@@ -139,7 +139,7 @@ NameVirtualHost *:80
 > ![](media/Install_Eclipse/20_Install_Eclipse.PNG)
 
 ## 4. Definició de WorkSpace
-* El *WorkSpace* o espai de treball és la carpeta on és desaran els nostres projectes. Cal definir-lo quan executem Eclipse per primer cop o bé, canviar-lo des de *File > Switch Workspace*:
+* El *WorkSpace* o espai de treball és el directori arrel on es desaran els nostres projectes. Cal definir-lo quan executem Eclipse per primer cop o bé, canviar-lo des de *File > Switch Workspace*:
 ![](media/Captura007.PNG)
 
 ## 5. Definició de projecte
