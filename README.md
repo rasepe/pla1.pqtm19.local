@@ -17,63 +17,56 @@
 ## 1. Instal·lació de XAMPP
 
 * Anem a la web [https://www.apachefriends.org](https://www.apachefriends.org) i descarreguem la versió de XAMPP que correspongui:
-
 ![](media/Install_Xampp/1_Install_Xampp.PNG)
 
-* Descarreguem i obrim el fitxer:
 
+* Descarreguem i obrim el fitxer:
 ![](media/Install_Xampp/2_Install_Xampp.PNG)
 
+
 * Ens sortirà un avís, fem OK i s'iniciarà l'assistent d'instal·lació:
-
 ![](media/Install_Xampp/3_Install_Xampp.PNG)
-
 ![](media/Install_Xampp/4_Install_Xampp.PNG)
 
-* Seleccionem els components que volem instal·lar:
 
+* Seleccionem els components que volem instal·lar:
 ![](media/Install_Xampp/5_Install_Xampp.PNG)
 
+
 * Seleccionem la carpeta on volem instal·lar XAMPP i anem fent "Next" fins que finalitzi la instal·lació:
-
 ![](media/Install_Xampp/6_Install_Xampp.PNG)
-
 ![](media/Install_Xampp/7_Install_Xampp.PNG)
-
 ![](media/Install_Xampp/8_Install_Xampp.PNG)
-
 ![](media/Install_Xampp/9_Install_Xampp.PNG)
-
 ![](media/Install_Xampp/10_Install_Xampp.PNG)
 
-* Seleccionem idioma:
 
+* Seleccionem idioma:
 ![](media/Install_Xampp/11_Install_Xampp.PNG)
 
+
 * Arrenquem els servidors Apache i MySQL:
-
 ![](media/Install_Xampp/12_Install_Xampp.PNG)
-
 ![](media/Install_Xampp/13_Install_Xampp.PNG)
 
 * Si tot ha anat bé, si introduïm *localhost* al navegador hauríem de visualitzar aquesta pantalla:
-
 ![](media/Install_Xampp/14_Install_Xampp.PNG)
 
 ## 2. Configuració de VirtualHost d’Apache
 
 * Primer de tot creem la carpeta del projecte:
-
 ![](media/Captura001.PNG)
 
+
 * Editem el fitxer **httpd-vhosts.conf**, que es troba a la carpeta C:\xampp\apache\conf\extra. 
+
 
 * Anem sota la línia:
 
 ```
 NameVirtualHost *:80
 ```
-> El codi que hem d'introduir és:
+> El codi que hem d'introduir per crear un *VirtualHost* al directori C:/PQTM19/Projectes/pla1.pqtm19.local és:
 
 
 ```
@@ -94,9 +87,10 @@ NameVirtualHost *:80
 	</Directory>
 </VirtualHost>
 ```
-> En la següent captura ressaltem les línies de codi que fan referència a la carpeta del projecte, és l'única part del codi que haurem d'adaptar cada cop que creem un nou *Virtualhost*: 
-
+> En la següent captura ressaltem les línies de codi que fan referència a la carpeta del projecte. Cada *Virtualhost* tindrà el seu propi bloc de codi que és idèntic tret de la referència a la carpeta. Per tant, aquesta és l'única part del codi que haurem d'adaptar cada cop que afegim un nou *Virtualhost*.
 ![](media/Captura002.PNG)
+
+* A continuació, editem el fixer **hosts** situat a la carpeta C:\Windows\System32\drivers\etc :
 ![](media/Captura003.PNG)
 ![](media/Captura004.PNG)
 ![](media/Captura005.PNG)
