@@ -122,6 +122,9 @@ NameVirtualHost *:80
 > ![](media/Install_Eclipse/3_Install_Eclipse.PNG)
 > ![](media/Install_Eclipse/4_Install_Eclipse.PNG)
 > ![](media/Install_Eclipse/5_Install_Eclipse.PNG)
+
+* Si no el tenim instal·lat, haurem d'instal·lar el Java Runtime Environment o bé el Jave Development Kit:
+
 > ![](media/Install_Eclipse/6_Install_Eclipse.PNG)
 > ![](media/Install_Eclipse/7_Install_Eclipse.PNG)
 > ![](media/Install_Eclipse/8_Install_Eclipse.PNG)
