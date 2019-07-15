@@ -131,6 +131,9 @@ NameVirtualHost *:80
 > ![](media/Install_Eclipse/9_Install_Eclipse.PNG)
 > ![](media/Install_Eclipse/10_Install_Eclipse.PNG)
 > ![](media/Install_Eclipse/11_Install_Eclipse.PNG)
+
+* Seguim amb la instal·lació d'Eclipse:
+
 > ![](media/Install_Eclipse/12_Install_Eclipse.PNG)
 > ![](media/Install_Eclipse/13_Install_Eclipse.PNG)
 > ![](media/Install_Eclipse/14_Install_Eclipse.PNG)
