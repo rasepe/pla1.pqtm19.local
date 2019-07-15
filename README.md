@@ -144,6 +144,7 @@ NameVirtualHost *:80
 > ![](media/Install_Eclipse/20_Install_Eclipse.PNG)
 
 * També podem canviar-lo des de *File > Switch Workspace*:
+
 > ![](media/Captura007.PNG)
 
 ## 5. Definició de projecte
