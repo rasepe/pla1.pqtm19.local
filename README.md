@@ -132,7 +132,7 @@ NameVirtualHost *:80
 > ![](media/Install_Eclipse/10_Install_Eclipse.PNG)
 > ![](media/Install_Eclipse/11_Install_Eclipse.PNG)
 
-* Seguim amb la instal·lació d'Eclipse:
+* Seguim amb la instal·lació d'Eclipse, seleccionarem "Eclipse ID for PHP Developers", que, a més de PHP, ens permetrà treballar amb HTML, CSS i Javascript:
 
 > ![](media/Install_Eclipse/12_Install_Eclipse.PNG)
 > ![](media/Install_Eclipse/13_Install_Eclipse.PNG)
