@@ -139,8 +139,12 @@ NameVirtualHost *:80
 > ![](media/Install_Eclipse/20_Install_Eclipse.PNG)
 
 ## 4. Definició de WorkSpace
-* El *WorkSpace* o espai de treball és el directori arrel on es desaran els nostres projectes. Cal definir-lo quan executem Eclipse per primer cop o bé, canviar-lo des de *File > Switch Workspace*:
-![](media/Captura007.PNG)
+* El *WorkSpace* o espai de treball és el directori arrel on es desaran els nostres projectes. Cal definir-lo quan executem Eclipse per primer cop, al final de la instal·lació:
+
+> ![](media/Install_Eclipse/20_Install_Eclipse.PNG)
+
+* També podem canviar-lo des de *File > Switch Workspace*:
+> ![](media/Captura007.PNG)
 
 ## 5. Definició de projecte
 * En les captures d'exemple, exemplifiquem com crear un projecte de tipus General, que anomenarem *pla1.pqtm19.local*:
